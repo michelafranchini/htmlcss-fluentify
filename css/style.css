@@ -13,6 +13,11 @@ body {
     margin: 0 auto;
 }
 
+.container-70 {
+    width: 70%;
+    margin: 0 auto;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -174,5 +179,48 @@ h1 {
     color:  #808080 ;
 }
 
+/* sezione a due colonne immagine e testo */
+.article-image {
+    height: 100%;
+    width: 50%;
+    /* background-color: blue; */
+    /* background-image: url(../img/mountain.svg); */
+}
 
+.left-img {
+    height: 400px;
+    margin-top: 50px;
+    background-image: url(../img/mountain.svg);
+    background-repeat: no-repeat;
 
+}
+
+.article-right {
+    height: 600px;
+    width: 50%;
+    padding-top: 100px;
+    padding-right: 150px;
+    /* background-color: blue; */
+}
+
+.article-right h2 {
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.article-right p {
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+/* footer */
+footer {
+    position: relative;
+    height: 150px;
+    background-color: #d3d3d3;
+}
+
+#title-footer { position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
