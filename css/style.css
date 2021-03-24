@@ -240,7 +240,16 @@ label {
 }
 
 .standard-select {
-    width: 110px;
+    width: 135px;
     border: none;
     background: none;
+    color: #808080;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-decoration: underline;
 }
+}
+.standard-select select {
+    display: none; /*hide original SELECT element:*/
+  }
