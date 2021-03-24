@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.float-left {
+    float: left;
+}
+
+/* header */
+header {
+    height: 600px;
+    background-color: #0c325a;
+    background-image: url(../img/background-header.png);
+    background-position: 105% bottom;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.header-nav {
+    height: 80px;
+    line-height: 80px;
+}
+.header-logo {
+    width: 15%;
+    height: 100%;
+    vertical-align: middle;
+}
+.header-logo img {
+    vertical-align: middle;
+}
+
+.nav-left {
+    width: 45%;
+    text-align: left;
+}
+.nav-right {
+    width: 40%;
+    text-align: right;
+}
+
+.list-inline {
+    list-style: none;
+}
+.list-inline li {
+    display: inline-block;
+    padding: 0 10px;
+}
+.list-inline a {
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    text-transform: uppercase;
+}
+.list-inline a:hover {
+    color: #7cbb02;
+}
+
+/* bottoni */
+.btn {
+    border-radius: 10px;
+    padding:10px;
+}
+.btn-blue {
+    background-color: #0c325a ;
+    border: 1px solid white;
+}
+.btn-green {
+    background-color:  #7cbb02;
+    border: 1px solid #7cbb02;
+}
+.btn-green:hover {
+    color: #0c325a;
+}
+.jumbotron {
+    position: relative;
+    height: 520px;
+}
+.jumbotron img {
+    max-height: 520px;
+    position: right bottom;
+}
+.jumbotron-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    color: white;
+}
+.jumbotron a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 20px;
+}
+h1 {
+    font-size: 50px;
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+
