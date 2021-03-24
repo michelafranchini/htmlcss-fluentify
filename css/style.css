@@ -22,6 +22,10 @@ body {
     float: left;
 }
 
+.gray {
+    color: #808080;
+}
+
 /* header */
 header {
     height: 600px;
@@ -69,6 +73,9 @@ header {
 .list-inline a:hover {
     color: #7cbb02;
 }
+a.btn.btn-green:hover {
+    color: #0c325a;
+}
 
 /* bottoni */
 .btn {
@@ -112,5 +119,60 @@ h1 {
     width: 60%;
     margin-bottom: 50px;
 }
+
+/* blocco grigio */
+.section-gray {
+    height: 100%;
+    padding: 45px;
+    background-color: #d3d3d3;
+    text-align: center;
+}
+.section-gray h2 {
+    padding-bottom: 10px;
+    font-size: 28px;
+}
+
+/* sezione a tre colonne */
+.aside {
+    height: 100%;
+    width: 30%;
+    margin: 1%;
+    text-align: center;
+    /* background-color: red; */
+}
+
+.image {
+    height: 180px;
+    margin-top: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.aside-left {
+    background-image: url(../img/profile.svg);
+}
+.aside-center {
+    background-image: url(../img/computer.svg);
+}
+.aside-right {
+    background-image: url(../img/doc.svg);
+}
+
+.aside h2 {
+    padding: 39px;
+    font-size: 28px;
+    color: #7cbb02;
+}
+.aside p {
+    padding: 30px;
+    line-height: 25px;
+}
+
+#hr-aside {
+    width: 25%;
+    margin: auto;
+    color:  #808080 ;
+}
+
 
 
