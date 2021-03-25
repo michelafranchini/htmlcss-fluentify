@@ -14,6 +14,7 @@ body {
 }
 
 .container-70 {
+    position: relative;
     width: 70%;
     margin: 0 auto;
 }
@@ -333,12 +334,31 @@ span.underline {
 .computer a {
     color: #bac5cb;
 }
+.computer span {
+    color: #7cbb02; ;
+}
 
 
 /* sezione blu alta*/
 .blu-banner {
     height: 400px;
     background-color: #0c325a ;
+}
+.text-left {
+    width: 23%;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    transform: translate(50%, 30%);
+}
+.text-left h2 {
+    color: white;
+    line-height: 35px;
+    padding-bottom: 30px;
+}
+.text-left p {
+    padding-bottom: 30px;
+    line-height: 25px;
 }
 
 .help {
