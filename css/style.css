@@ -227,17 +227,32 @@ footer {
     left: 10%;
     transform: translate(-50%, -50%);
 } */
-#title-footer {
+.line-height150 {
     line-height: 150px;
 }
 
-label {
+footer h2 {
+    width: 55%;
+}
+
+footer p {
+    width: 45%;
+    font-weight: 700;
+}
+
+span.underline {
+    text-decoration: underline;
+    padding: 10px;
+    word-spacing: 60px;
+}
+
+/* label {
     padding: 30px;
     color: #808080;
     font-weight: bold;
-}
+} */
 
-.level-list {
+/* .level-list {
     display: inline-block;
     position: absolute;
     top: 50%;
@@ -257,8 +272,9 @@ label {
 }
 
 .standard-select select {
-    display: none; /*hide original SELECT element:*/
-  }
+    display: none; /*hide original SELECT element:
+} */
+ 
 
 .btn-bottom {
     position: absolute;
