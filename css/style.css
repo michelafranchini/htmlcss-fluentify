@@ -212,11 +212,11 @@ h1 {
 }
 .article-right p {
     line-height: 25px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 /* footer */
-footer {
+.middle-gray {
     position: relative;
     height: 150px;
     background-color: #d3d3d3;
@@ -231,11 +231,11 @@ footer {
     line-height: 150px;
 }
 
-footer h2 {
+.middle-gray h2 {
     width: 55%;
 }
 
-footer p {
+.middle-gray p {
     width: 45%;
     font-weight: 700;
 }
@@ -244,6 +244,13 @@ span.underline {
     text-decoration: underline;
     padding: 10px;
     word-spacing: 60px;
+}
+
+.btn-bottom {
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    transform: translate(-50%,-50%);
 }
 
 /* label {
@@ -274,13 +281,64 @@ span.underline {
 .standard-select select {
     display: none; /*hide original SELECT element:
 } */
- 
 
-.btn-bottom {
-    position: absolute;
-    top: 50%;
-    right: 15%;
-    transform: translate(-50%,-50%);
+/* seconda sezione a due colonne */
+.height480 { 
+    height: 480px;
+}
+.left-img2 {
+    background-image: url(../img-bonus/shakehands.svg);
+    height: 260px;
+}
+
+.btn-section2 {
+    padding: 20px;
+}
+
+#after-bottom {
+    display: inline-block;
+    font-size: 18px;
+    padding: 0 10px;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+/*sezione con un immagine al centro e testo sotto*/
+.computer-set {
+    height: 300px;
+    margin: 80px 0 30px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img-bonus/set.svg);
+}
+
+.computer {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.computer h2,
+.computer p,
+.computer a,
+.computer h5 {
+    padding: 10px 0;
+}
+.computer h5 {
+    font-size: 12px;
+}
+.computer p {
+    font-size: 20px;
+}
+.computer a {
+    color: #bac5cb;
+}
+
+
+/* sezione blu alta*/
+.blu-banner {
+    height: 400px;
+    background-color: #0c325a ;
 }
 
 .help {
